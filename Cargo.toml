@@ -1,5 +1,5 @@
 [package]
-name = "fizzbuzz_smallest_steps"
+name = "fizzbuzz"
 version = "0.1.0"
 edition = "2018"
 
