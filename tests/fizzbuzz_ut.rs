@@ -1,5 +1,7 @@
 #[cfg(test)]
 mod tests {
+    use fizzbuzz::fizzbuzz_to_thirty;
+
     #[test]
     fn test_fizzbuzz_to_thirty() {
         assert_eq!(
@@ -34,6 +36,6 @@ mod tests {
              29\n\
              fizzbuzz\n\
              ",
-            fizzbuzz::fizzbuzz_to_thirty());
+            fizzbuzz_to_thirty());
     }
 }
